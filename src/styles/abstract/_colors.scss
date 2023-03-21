@@ -1,0 +1,27 @@
+//light theme colors
+$white-smoke: #f5f5f5;
+$pink: #d5a6bd;
+$yellow: #ffc857;
+$cadet: #2b2d42;
+$black: #000000;
+
+//dark theme colors
+$night: #0d0d0d;
+$eerire-black: #252525;
+$blue-voilet: #7c3aed;
+$red: #c3073f;
+$white: #ffffff;
+
+$colors: (
+    "light": (
+        "bg-color": $white-smoke,
+        "nav-bg": $white-smoke,
+        "text-color": $black,
+    ),
+    "dark": (
+        "bg-color": $night,
+        "nav-bg": $eerire-black,
+        "text-color": $white,
+    ),
+    "common": (),
+);

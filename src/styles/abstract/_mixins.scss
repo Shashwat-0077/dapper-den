@@ -1,0 +1,11 @@
+@use "./colors";
+
+@mixin theme($thm: "dark") {
+    @each $prop, $val in map-get($map: colors.$colors, $key: $thm) {
+        --#{$prop}: #{$val};
+    }
+
+    @each $prop, $val in map-get($map: colors.$colors, $key: "common") {
+        --#{$prop}: #{$val};
+    }
+}
